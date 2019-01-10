@@ -1,0 +1,433 @@
+[
+  {
+    "id": 13,
+    "name": "Agassiz Brewing",
+    "address": "PO Box 42008",
+    "City": "Winnipeg",
+    "province": "Manitoba",
+    "country": "Canada",
+    "coordinates": "49.7652, -97.1539",
+    "website": ""
+  },
+  {
+    "id": 119,
+    "name": "Big Ridge Brewing",
+    "address": "15133 Highway 10",
+    "City": "Surrey",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.1049, -122.69",
+    "website": ""
+  },
+  {
+    "id": 120,
+    "name": "Big River Brewing",
+    "address": "180 - 14200 Entertainment Boulevard",
+    "City": "Richmond",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.1344, -123.065",
+    "website": ""
+  },
+  {
+    "id": 121,
+    "name": "Big Rock namey",
+    "address": "5555 76th Avenue SE",
+    "City": "Calgary",
+    "province": "Alberta",
+    "country": "Canada",
+    "coordinates": "50.9847, -113.956",
+    "website": ""
+  },
+  {
+    "id": 163,
+    "name": "Brasal-Brasserie Allemande",
+    "address": "",
+    "City": "LaSalle",
+    "province": "Quebec",
+    "country": "Canada",
+    "coordinates": "45.4289, -73.6313",
+    "website": ""
+  },
+  {
+    "id": 198,
+    "name": "Brasserie McAuslan",
+    "address": "5080 Rue St-Ambroise",
+    "City": "Montreal",
+    "province": "Quebec",
+    "country": "Canada",
+    "coordinates": "45.4682, -73.5913",
+    "website": "http://www.mcauslan.com"
+  },
+  {
+    "id": 247,
+    "name": "namey Creek Brewing",
+    "address": "23 Commerce Street",
+    "City": "Mineral Point",
+    "province": "Wisconsin",
+    "country": "United provinces",
+    "coordinates": "42.8606, -90.1772",
+    "website": "http://www.nameycreek.com/"
+  },
+  {
+    "id": 253,
+    "name": "Brick Brewing",
+    "address": "1 Old namey Lane",
+    "City": "Formosa",
+    "province": "Ontario",
+    "country": "Canada",
+    "coordinates": "",
+    "website": ""
+  },
+  {
+    "id": 334,
+    "name": "Cameron's Brewing",
+    "address": "1165 Invicta Drive",
+    "City": "Oakville",
+    "province": "Ontario",
+    "country": "Canada",
+    "coordinates": "43.4745, -79.6775",
+    "website": ""
+  },
+  {
+    "id": 357,
+    "name": "Central City Brewing Company",
+    "address": "13450 - 102 Avenue",
+    "City": "Surrey",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.1873, -122.85",
+    "website": "http://www.centralcitybrewing.com/"
+  },
+  {
+    "id": 449,
+    "name": "Dieu du Ciel",
+    "address": "29 Laurier Ouest",
+    "City": "MontrÃ©al",
+    "province": "Quebec",
+    "country": "Canada",
+    "coordinates": "45.5228, -73.5928",
+    "website": "http://www.dieuduciel.com/"
+  },
+  {
+    "id": 453,
+    "name": "Dix Barbecue & namey",
+    "address": "871 Beatty Street",
+    "City": "Vancouver",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.2766, -123.115",
+    "website": ""
+  },
+  {
+    "id": 457,
+    "name": "Dockside Brewing",
+    "address": "1253 Johnston Street",
+    "City": "Vancouver",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.2698, -123.132",
+    "website": ""
+  },
+  {
+    "id": 579,
+    "name": "Gold Crown Brewing",
+    "address": "71 King Street North",
+    "City": "Waterloo",
+    "province": "Ontario",
+    "country": "Canada",
+    "coordinates": "43.4676, -80.5231",
+    "website": ""
+  },
+  {
+    "id": 597,
+    "name": "Granville Island Brewing",
+    "address": "1125 Richter Street",
+    "City": "Kelowna",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.8945, -119.488",
+    "website": ""
+  },
+  {
+    "id": 598,
+    "name": "Granville Island Brewing Company",
+    "address": "1441 Cartwright Street",
+    "City": "Vancouver",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "34.396, -119.521",
+    "website": ""
+  },
+  {
+    "id": 762,
+    "name": "Labatt Ontario nameies",
+    "address": "150 Simcoe Street",
+    "City": "London",
+    "province": "Ontario",
+    "country": "Canada",
+    "coordinates": "42.9778, -81.2467",
+    "website": ""
+  },
+  {
+    "id": 777,
+    "name": "Le Cheval Blanc",
+    "address": "809 Rue Ontario Est",
+    "City": "Montreal",
+    "province": "Quebec",
+    "country": "Canada",
+    "coordinates": "45.5181, -73.5642",
+    "website": ""
+  },
+  {
+    "id": 788,
+    "name": "Lighthouse Brewing",
+    "address": "2 - 836 Devonshire Road",
+    "City": "Victoria",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "48.4358, -123.396",
+    "website": ""
+  },
+  {
+    "id": 805,
+    "name": "Lwenbru Munich",
+    "address": "Toronto ON",
+    "City": "Toronto",
+    "province": "Ontario",
+    "country": "Canada",
+    "coordinates": "43.7379, -79.5714",
+    "website": ""
+  },
+  {
+    "id": 828,
+    "name": "Marine Pub & Brewhouse",
+    "address": "5820 Marine Drive",
+    "City": "Burnaby",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.2055, -122.978",
+    "website": ""
+  },
+  {
+    "id": 873,
+    "name": "Mission Springs Brewing",
+    "address": "7160 Oliver Street",
+    "City": "Mission",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.1323, -122.343",
+    "website": ""
+  },
+  {
+    "id": 878,
+    "name": "Molson nameies of Canada",
+    "address": "175 Bloor Street East",
+    "City": "Toronto",
+    "province": "Ontario",
+    "country": "Canada",
+    "coordinates": "43.6706, -79.3824",
+    "website": ""
+  },
+  {
+    "id": 886,
+    "name": "Moosehead nameies",
+    "address": "89 Main Street West",
+    "City": "Saint John",
+    "province": "New Brunswick",
+    "country": "Canada",
+    "coordinates": "45.2567, -66.096",
+    "website": ""
+  },
+  {
+    "id": 902,
+    "name": "Nelson Brewing",
+    "address": "512 Latimer Street",
+    "City": "Nelson",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.4884, -117.29",
+    "website": ""
+  },
+  {
+    "id": 912,
+    "name": "Niagara Falls Brewing",
+    "address": "6863 Lundy's Lane",
+    "City": "Niagara Falls",
+    "province": "Ontario",
+    "country": "Canada",
+    "coordinates": "43.0893, -79.11",
+    "website": ""
+  },
+  {
+    "id": 938,
+    "name": "Okanagan Spring namey",
+    "address": "2801 - 27A Avenue",
+    "City": "Vernon",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "50.2613, -119.277",
+    "website": ""
+  },
+  {
+    "id": 1034,
+    "name": "R&B; Brewing",
+    "address": "54 East Fourth Avenue",
+    "City": "Vancouver",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.2673, -123.103",
+    "website": ""
+  },
+  {
+    "id": 1085,
+    "name": "Russell Brewing",
+    "address": "202 - 13018 80th Avenue",
+    "City": "Surrey",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "",
+    "website": ""
+  },
+  {
+    "id": 1121,
+    "name": "Scotch Irish Brewing",
+    "address": "40 Bennett Street",
+    "City": "Carleton Place",
+    "province": "Ontario",
+    "country": "Canada",
+    "coordinates": "45.1279, -76.13",
+    "website": ""
+  },
+  {
+    "id": 1130,
+    "name": "Shaftebury Brewing",
+    "address": "",
+    "City": "Delta",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.1487, -122.912",
+    "website": ""
+  },
+  {
+    "id": 1154,
+    "name": "Sleeman Brewing & Malting",
+    "address": "551 Clair Road West",
+    "City": "Guelph",
+    "province": "Ontario",
+    "country": "Canada",
+    "coordinates": "43.487, -80.2068",
+    "website": ""
+  },
+  {
+    "id": 1194,
+    "name": "Steam Whistle namey",
+    "address": "255 Bremner Road",
+    "City": "Toronto",
+    "province": "ON",
+    "country": "Canada",
+    "coordinates": "43.6414, -79.3869",
+    "website": "http://www.steamwhistle.ca"
+  },
+  {
+    "id": 1195,
+    "name": "Steamworks",
+    "address": "375 Water Street",
+    "City": "Vancouver",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.2849, -123.11",
+    "website": "http://www.steamworks.com/gastown_index.htm"
+  },
+  {
+    "id": 1210,
+    "name": "Storm Brewing",
+    "address": "310 Commercial Drive",
+    "City": "Vancouver",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.2821, -123.07",
+    "website": "http://www.stormbrewing.org"
+  },
+  {
+    "id": 1237,
+    "name": "Taylor's Crossing Brewing",
+    "address": "1025 Marine Drive",
+    "City": "North Vancouver",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.3238, -123.102",
+    "website": ""
+  },
+  {
+    "id": 1250,
+    "name": "The Livery",
+    "address": "190 5th Street",
+    "City": "Benton Harbor",
+    "province": "Michigan",
+    "country": "United provinces",
+    "coordinates": "42.1185, -86.4537",
+    "website": "http://liverybrew.com/"
+  },
+  {
+    "id": 1267,
+    "name": "Tin Whistle Brewing",
+    "address": "954 West Eckhardt Avenue",
+    "City": "Penticton",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.4944, -119.61",
+    "website": ""
+  },
+  {
+    "id": 1307,
+    "cat_id": 5,
+    "name": "Unibroue",
+    "address": "80 Des Carrires",
+    "City": "Chambly",
+    "province": "Quebec",
+    "country": "Canada",
+    "coordinates": "45.4416, -73.2595",
+    "website": "http://www.unibroue.com"
+  },
+  {
+    "id": 1377,
+    "name": "Wyder's Cider",
+    "address": "255999 Eighth Street SW",
+    "City": "Calgary",
+    "province": "Alberta",
+    "country": "Canada",
+    "coordinates": "51.034, -114.083",
+    "website": ""
+  },
+  {
+    "id": 1381,
+    "name": "Yaletown Brewing",
+    "address": "1111 Mainland Street",
+    "City": "Vancouver",
+    "province": "British Columbia",
+    "country": "Canada",
+    "coordinates": "49.2755, -123.121",
+    "website": ""
+  },
+  {
+    "id": 1401,
+    "name": "Half Pints Brewing Company",
+    "address": "550 Roseberry Street",
+    "City": "Winnipeg",
+    "province": "Manitoba",
+    "country": "Canada",
+    "coordinates": "",
+    "website": "http://www.halfpintsbrewing.com"
+  },
+  {
+    "id": 1414,
+    "name": "Black Creek Historic namey",
+    "address": "Black Creek Pioneer Village",
+    "City": "Toronto",
+    "province": "Ontario",
+    "country": "Canada",
+    "coordinates": "",
+    "website": "http://www.blackcreeknamey.ca/"
+  }
+]
