@@ -10,7 +10,7 @@
     "srm": 0,
     "upc": 0,
     "filepath": "",
-    "c": "",
+    "description": "",
     "add_user": 0,
     "last_mod": "2010-07-22T16:00:00-04:00",
     "style": "German-Style Schwarzbier",
@@ -1224,7 +1224,7 @@
     "category": "North American Ale"
   },
   {
-    "name": 11,
+    "name": "11",
     "id": 4042,
     "brewery_id": 1307,
     "cat_id": 3,
@@ -1360,7 +1360,7 @@
     "category": "North American Lager"
   },
   {
-    "name": 1837,
+    "name": "1837",
     "id": 1991,
     "brewery_id": 1307,
     "cat_id": 5,
@@ -1411,7 +1411,7 @@
     "category": "Belgian and French Ale"
   },
   {
-    "name": 16,
+    "name": "16",
     "id": 39,
     "brewery_id": 1307,
     "cat_id": -1,
@@ -2414,7 +2414,7 @@
     "category": "North American Ale"
   },
   {
-    "name": 15,
+    "name": "15",
     "id": 651,
     "brewery_id": 1307,
     "cat_id": -1,
