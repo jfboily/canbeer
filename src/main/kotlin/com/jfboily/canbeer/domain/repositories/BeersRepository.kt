@@ -5,4 +5,4 @@ import org.springframework.data.repository.CrudRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface BeerRepository : CrudRepository<Beer, Long>
+interface BeersRepository : CrudRepository<Beer, Long>
