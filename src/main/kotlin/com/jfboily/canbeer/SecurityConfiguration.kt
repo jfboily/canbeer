@@ -1,5 +1,7 @@
 package com.jfboily.canbeer
 
+import com.jfboily.canbeer.security.RestAuthenticationEntryPoint
+import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity
@@ -9,14 +11,12 @@ import org.springframework.security.crypto.password.PasswordEncoder
 import org.springframework.security.config.annotation.web.builders.HttpSecurity
 
 
-
-
-
-
-
 @Configuration
 @EnableWebSecurity
 class SecurityConfiguration : WebSecurityConfigurerAdapter() {
+
+    @Autowired
+    val restAuthenticationEntryPoint: RestAuthenticationEntryPoint
 
     override fun configure(auth: AuthenticationManagerBuilder) {
         auth.inMemoryAuthentication()
