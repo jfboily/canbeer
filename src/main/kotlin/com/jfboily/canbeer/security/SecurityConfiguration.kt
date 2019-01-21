@@ -9,41 +9,30 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder
 import org.springframework.security.crypto.password.PasswordEncoder
 import org.springframework.security.config.annotation.web.builders.HttpSecurity
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder
+import org.springframework.security.web.authentication.www.BasicAuthenticationFilter
 
 
 @Configuration
 @EnableWebSecurity
-class SecurityConfiguration : WebSecurityConfigurerAdapter() {
-
-    @Autowired
-    val restAuthenticationEntryPoint: RestAuthenticationEntryPoint
+class SecurityConfiguration(val restAuthenticationEntryPoint: RestAuthenticationEntryPoint) : WebSecurityConfigurerAdapter() {
 
     override fun configure(auth: AuthenticationManagerBuilder) {
         auth.inMemoryAuthentication()
-                .withUser("admin").password(encoder().encode("admin")).roles("ADMIN")
-                .and()
                 .withUser("user").password(encoder().encode("user")).roles("USER")
     }
 
     override fun configure(http: HttpSecurity) {
         http
                 .csrf().disable()
-                .exceptionHandling()
-                .authenticationEntryPoint(restAuthenticationEntryPoint)
-                .and()
                 .authorizeRequests()
+                .antMatchers("/console/**").permitAll()
                 .antMatchers("/api/v1/**").authenticated()
-                .antMatchers("/api/admin/**").hasRole("ADMIN")
-                .and()
-                .formLogin()
-                .successHandler(mySuccessHandler)
-                .failureHandler(myFailureHandler)
-                .and()
-                .logout()
+                .and().httpBasic().authenticationEntryPoint(restAuthenticationEntryPoint)
     }
 
     @Bean
     fun encoder(): PasswordEncoder {
-        return BCryptPassowordEncoder()
+        return BCryptPasswordEncoder()
     }
 }
