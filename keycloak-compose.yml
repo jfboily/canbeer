@@ -1,0 +1,30 @@
+version: '3'
+
+volumes:
+  keycloak_pg_data:
+
+services:
+
+  postgres:
+    image: postgres
+    expose:
+      - "5432"
+    volumes:
+      - keycloak_pg_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: keycloak
+
+  keycloak:
+    image: jboss/keycloak
+    environment:
+      DB_VENDOR: POSTGRES
+      DB_ADDR: postgres
+      DB_DATABASE: keycloak
+      DB_USER: keycloak
+      DB_PASSWORD: keycloak
+    ports:
+      - "8180:8080"
+    depends_on:
+      - postgres
