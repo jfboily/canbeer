@@ -7,6 +7,8 @@ import com.jfboily.canbeer.domain.repositories.BreweriesRepository
 import org.springframework.boot.ApplicationRunner
 import org.springframework.boot.Banner
 import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+import org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration
 import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean
 
@@ -36,7 +38,6 @@ class CanbeerApplication {
         beersRepository.save(Beer(0, "La Saint-Charles", laSouche, 3.5, 30, "Brown Ale"))
 
         // beers : Inox
-
         beersRepository.save(Beer(0,"Labrosse", inox, 5.0, 30, "Blonde & Lager"))
         beersRepository.save(Beer(0,"Trouble-fête", inox, 4.5, 15, "Blanche croisee"))
         beersRepository.save(Beer(0,"Double IPA", inox, 8.0, 75, "Double IPA"))
