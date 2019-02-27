@@ -29,7 +29,11 @@ export class AppComponent {
     this.oauthService.logOut();
   }
 
-  get givenName() {
+  isLoggedIn() {
+    return this.oauthService.hasValidIdToken();
+  }
+
+  get username() {
     const claims = this.oauthService.getIdentityClaims();
     if (!claims) {
       return null;
