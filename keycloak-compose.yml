@@ -26,5 +26,7 @@ services:
       DB_PASSWORD: keycloak
     ports:
       - "8180:8080"
+    volumes:
+      - ~/docker-data/keycloak_themes:/opt/jboss/keycloak/themes
     depends_on:
       - postgres

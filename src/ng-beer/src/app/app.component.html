@@ -1,17 +1,23 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<mat-toolbar color="primary">
-  <span>Welcome to {{title}}!</span>
-  <span class="fill-space"></span>
-  <span *ngIf="isLoggedIn()">Yo, {{username}} <button mat-raised-button color="accent" (click)="logout()">LOGOUT</button></span>
-  <span *ngIf="!isLoggedIn()"><button mat-raised-button (click)="login()">LOGIN</button></span>
-</mat-toolbar>
+<main role="main">
+  <nav class="navbar">
+    <a href="/" class="navbar-brand">{{title}}!</a>
+    <span class="fill-space"></span>
+    <span *ngIf="isLoggedIn()">Yo, {{username}} <a href="#" class="btn btn-primary" (click)="logout()">LOGOUT</a></span>
+    <span *ngIf="!isLoggedIn()"><a href="#"class="btn btn-primary" (click)="login()">LOGIN</a></span>
+  </nav>
 
-<div *ngIf="isLoggedIn()">
-  <app-beer-list></app-beer-list>
-</div>
-<div *ngIf="!isLoggedIn()">
-  <h2>Authentifiez-vous pour consulter la liste des bieres.</h2>
-</div>
+  <div class="container">
+    <div *ngIf="isLoggedIn()">
+      <app-beer-list></app-beer-list>
+    </div>
+    <div *ngIf="!isLoggedIn()">
+      <h2>Authentifiez-vous pour consulter la liste des bieres.</h2>
+    </div>
+  </div>  
+
+
+</main>
 
 <router-outlet></router-outlet>
 

@@ -1,4 +1,10 @@
-<mat-card *ngFor="let beer of beers">
-  <mat-card-title>{{beer.name}}</mat-card-title>
-  <mat-card-subtitle>{{beer.brewery.name}}</mat-card-subtitle>
-</mat-card>
+<h2>Liste des bieres</h2>
+
+<div *ngFor="let beer of beers" class="card beer float-left">
+  <div class="card-body">
+    <img class="card-img-top" alt="Mmmm, beer!" src="https://www.gannett-cdn.com/-mm-/89934f7b13e7717eb560f3babda84f20895abcd0/c=83-0-724-482/local/-/media/2018/07/17/DetroitFreeP/DetroitFreePress/636674313628993565-GettyImages-684133728.jpg"/>
+      <h5>{{beer.name}}</h5>
+      <p class="card-text">{{beer.brewery.name}}</p>
+      <a href="#" class="btn btn-secondary">infos</a>
+  </div>
+</div>
