@@ -2,22 +2,23 @@ package com.jfboily.canbeer
 
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
-import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.boot.autoconfigure.security.oauth2.resource.JwtAccessTokenConverterConfigurer
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken
-import org.springframework.security.core.Authentication
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.security.core.authority.AuthorityUtils
 import org.springframework.security.oauth2.provider.OAuth2Authentication
 import org.springframework.security.oauth2.provider.OAuth2Request
 import org.springframework.security.oauth2.provider.token.DefaultAccessTokenConverter
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter
-
-import java.util.HashSet
-import java.util.function.Consumer
+import java.util.*
 
 
+/**
+ * Class for mapping keycloak's JWT specific stuff to Spring Security.
+ * Used for demonstration purposes only. Normally you would use
+ * the keycloak adapters (security / boot) to do this.
+ */
 class JwtAccessTokenCustomizer(private val mapper: ObjectMapper) : DefaultAccessTokenConverter(), JwtAccessTokenConverterConfigurer {
 
     init {

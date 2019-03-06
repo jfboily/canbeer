@@ -60,8 +60,7 @@ class SecurityConfig : ResourceServerConfigurerAdapter() {
 
     /**
      * Must override the resourceId.
-     * Seems like a bug in spring-security-oauth2-autoconfigure :
-     * ignores the property security.oauth2.resource.id
+     * ALSO, the audience must be properly configured in keycloak
      */
     override fun configure(resources: ResourceServerSecurityConfigurer) {
         super.configure(resources)
