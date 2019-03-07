@@ -15,5 +15,5 @@ As of now (March 6 2019):
 * clone the project
 * start the Keycloak server using the docker-compose file (keycloak-compose.yml)
 * configure the keycloak server (TODO)
-* start the backend : $ gradlew bootRun
-* start the frontend : $ src/ng-beer/ng serve
+* start the backend : `$ gradlew bootRun`
+* start the frontend : `$ src/ng-beer/ng serve`
